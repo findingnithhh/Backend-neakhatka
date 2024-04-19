@@ -1,0 +1,12 @@
+{
+  "entryFile": "monolith/src/app.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["monolith/src/**/*Controller.ts"],
+  "spec": {
+    "outputDirectory": "monolith/src",
+    "specVersion": 3
+  },
+  "routes": {
+    "routesDir": "monolith/src"
+  }
+}
